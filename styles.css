@@ -115,6 +115,14 @@ ul#topnav li a {
     line-height:200%;
  }
 
+.panel {
+    background-color: #F6F6F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #DCDCDC;
+    border-width: 3px;
+    margin: 10%;
+}
 
 .col {
     display: table-cell;
