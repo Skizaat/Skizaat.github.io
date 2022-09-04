@@ -124,14 +124,13 @@ ul#topnav li a {
     margin: 10%;
 }
 
+.github {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+  }
+
 .col {
     display: table-cell;
-}
-
-.col1 {
-    display: table-cell;
-    border-collapse: separate;
-    border-spacing: 5%;
 }
 
 
