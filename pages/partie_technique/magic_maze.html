@@ -31,27 +31,31 @@
     </div>
     <div id="container">
 
-        
+
 <div id="pageheader">
-    <div class="col">
-    <h1>Mes projets techniques</h1>
-    </div>
+    <img class="img-responsive center-block d-block mx-auto" src="../../ressources/banniereMM.JPG" width="100%" height="auto" style="border-radius:5px;"><br>
 </div>
 
-
-<img class="img-responsive center-block d-block mx-auto" src="../../ressources/banniere_technique.JPG" width="100%" height="auto"><br>
 
 
 <div class="section">
 
     <div class="pageitem">
-    <h2>Mes compétences</h2>
+    <h2>Contextualisation</h2>
     </div>
     
     <div class="pageitem">
-    <p>Dans mon école d’ingénieur en télécommunications Télécom SudParis, j’ai pu apprendre et développer de nombreuses compétences techniques lors de cours et de projets tout le long de ma scolarité. Je sais donc maitriser les systèmes d’exploitation Windows et Linux (distribution Ubuntu) ainsi que plusieurs langages de programmation : Java, C++, C, et Python. J’ai également appris à manipuler des objets JSON et XML et à manier l’HTML et le PHP. J’ai ainsi appris à utiliser de nombreux logiciels, comme Git, Flutter, Android Studio, les outils JetBrains (notamment IntelliJ), Visual Studio 2022 et Visual Studio Code. 
-        <br>Je suis donc plutôt spécialisée dans la programmation informatique, que ce soient des applications pour mobiles Android ou des jeux vidéo ou autres logiciels pour PC. 
-        </p>
+    <p>Magic Maze est un jeu de plateau crée par Sit Down, multijoueur coopératif. Les joueurs incarnent des aventuriers fauchés contraint de voler des armes dans un supermarché sans se faire repérer. Chaque joueur joue un rôle différent et ne peux déplacer les pions que dans une seule direction, il faut donc se coordonner avec les autres joueurs, mais difficulté supplémentaire, il est interdit de se parler. Il faut donc trouver une autre façon de communiquer et il existe plusieurs scénarios rajoutant des règles et des obstacles pour faire varier le niveau de difficulté.
+        </p><br><br>
+    <img src="../../ressources/mm1.jpeg" style="border-radius:5px;margin-right:5%;">
+    <img src="../../ressources/mm2.png" style="border-radius:5px;margin-left:5%;">
+    <p>
+        <br>
+        Dans mon école d’ingénieur, en première année (2021/2022 pour moi), tous les élèves forment des groupes de 4 et entament un projet informatique sur l’année. Le but est de les former au travail en équipe, à Git à la programmation et à la conception logicielle: 
+        <a href="https://enseignements.telecom-sudparis.eu/fiche.php?c=PRO3600">voir la fiche programme du module PRO 3600</a>
+        J’ai ainsi former un groupe avec 3 amis et nous avons décidé pour ce projet de réaliser une version numérique du jeux de plateau Magic Maze en multijoueur local.
+
+    </p>
     </div>
     
     </div>
@@ -59,80 +63,76 @@
     <div class="section">
 
         <div class="pageitem">
-        <h2>Mes différents projets</h2>
+        <h2>Description</h2>
+        </div>
+
+        <div class="pageitem">
+            <p>
+                Ce projet a commencé par une phase de réflexion sur l’adaptation du jeu de plateau en jeux numérique, notamment pour l’interface utilisateur. Comment transposer sur un écran toutes les informations de jeu présente sur le plateau ? Nous avons ainsi établi un cahier des charges, et des schémas pour structurer le projet.
+            </p><br><br>
+            <img src="../../ressources/mm3.jpg" style="border-radius:5px;margin-right:5%;">
+            <img src="../../ressources/mm4.jpg" style="border-radius:5px;margin-left:5%;">
+            <p>
+                <br>
+                Nous avons décidé de coder ce jeu avec <a href="https://libgdx.com/">libGDX</a>  en Java avec l’IDE IntelliJ, sur conseil de notre tuteur. Nous avons ainsi numérisé les cartes du jeu, modélisé des pions et créer des règles de déplacement sur les cartes (cases inaccessibles etc…). Ensuite, le plus gros défi de ce projet était l’aspect multijoueur en local, car en effet, plusieurs joueurs ne peuvent pas déplacer le même pion en même temps. La solution a été d’implémenter une architecture Client-Serveur où le serveur est hébergé par l’un des joueurs, c’est le « host » de la partie.
+            </p><br>
+            <h2 style="text-align:left;font-size:large;">Résultat final</h2>
+            <p>
+                Au bout de l’année scolaire, nous avons réussi à obtenir une version jouable bien que quelque peu bugée. Il y a un menu d’accueil, un lobby pour attendre que tous les joueurs se connectent, et le jeu principal.
+            </p><br><br>
+            <div>
+                <div class="col">
+                    <div>
+                        <img src="../../ressources/mm5.JPG" style="border-radius:5px">
+                        <p>Menu principal</p>
+                        <audio controls>
+                            <source src="../../ressources/audios/Musique_menu.mp3" type="audio/mpeg">
+                            <i>Votre navigateur ne supporte pas ce format audio</i>
+                        </audio>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="../../ressources/mm6.JPG" style="border-radius:5px;">
+                        <p>Lobby</p>
+                        <audio controls>
+                            <source src="../../ressources/audios/Musique_lobby.mp3" type="audio/mpeg">
+                            <i>Votre navigateur ne supporte pas ce format audio</i>
+                        </audio>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="../../ressources/mm7.JPG" style="border-radius:5px;">
+                        <p>Jeu</p>
+                        <audio controls>
+                            <source src="../../ressources/audios/Musique_jeu_A.mp3" type="audio/mpeg">
+                            <i>Votre navigateur ne supporte pas ce format audio</i>
+                        </audio>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        
+    </div>
+
+    <div class="pageitem">
+        <br><br>
+        <h2>Ce que j'ai appris</h2>
         </div>
         
         <div class="pageitem">
-            <div>            
-                <div class="col">
-                    <a href="magic_maze.html">
-                    <div class="panel">
-                        <p style="font-size:250%;"><b>Magic Maze</b></p>
-                        <img src="../../ressources/Magic_Maze.JPG" class="img-responsive panel-body" style="width:80%;border-radius: 5px;" alt="Image">
-                        <p style="font-size:150%;text-decoration: underline;">
-                            Projet Informatique: 2021/2022
-                        </p>
-                        <ul style="text-align:left;font-size: 115%;">
-                            <li>Développement sous libGDX</li>
-                            <li>Design de l'UI</li>
-                            <li>Composition des musiques</li>
-                        </ul> 
-                    </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="">
-                    <div class="panel">
-                        <p style="font-size:250%;"><b>ADIAP</b></p>
-                        <img src="../../ressources/ADIAP.jpg" class="img-responsive panel-body" style="width:80%;border-radius: 5px;" alt="Image">
-                        <p style="font-size:150%;text-decoration: underline;">
-                            Projet Cassiopée: 2022
-                        </p>
-                        <ul style="text-align:left;font-size: 115%;">
-                            <li>Développement mobile avec Flutter et Android Studio</li>
-                            <li>Design d'application mobile</li>
-                            <li>Relation Client</li>
-                        </ul> 
-                    </div>
-                    </a>
-                </div>
-            <div>            
-                <div class="col">
-                    <a href="">
-                    <div class="panel">
-                        <p style="font-size:250%;"><b>My Ghibli</b></p>
-                        <img src="../../ressources/My_Ghibli.JPG" class="img-responsive panel-body" style="width:80%;border-radius: 5px;" alt="Image">
-                        <p style="font-size:150%;text-decoration: underline;">
-                            Projet Android: 2021
-                        </p>
-                        <ul style="text-align:left;font-size: 115%;">
-                            <li>Développement mobile avec Android Studio et Java</li>
-                            <li>Utilisation d'une API en ligne</li>
-                            <li>Design d'application mobile</li>
-                        </ul> 
-                    </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="">
-                    <div class="panel">
-                        <p style="font-size:250%;"><b>Organ Fight</b></p>
-                        <img src="../../ressources/Organ-fight.JPG" class="img-responsive panel-body" style="width:80%;border-radius: 5px;" alt="Image">
-                        <p style="font-size:150%;text-decoration: underline;">
-                            Projet Développement C++: 2022
-                        </p>
-                        <ul style="text-align:left;font-size: 115%;">
-                            <li>Développement d'un jeu en C++</li>
-                            <li>Création et gestion de JSON</li>
-                            <li>Réflexions de Game Design</li>
-                        </ul> 
-                    </div>
-                    </a>
-                </div>
-            </div>
+            <ul style="text-align:left;font-size: 150%;">
+                <li>Langage Java</li>
+                <li>Utilisation de LibGDX</li>
+                <li>Utilisation de Git (et GitHub Desktop)</li>
+                <li>Utilisation de IntelliJ</li>
+                <li>Composition des musiques (avec MuseScore 3)</li>
+                <li>Travail de groupe</li>
+            </ul> 
         </div>
-        
-    </div>
 </div>
 
         
