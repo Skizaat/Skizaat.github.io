@@ -33,7 +33,7 @@
 
 
 <div id="pageheader">
-    <img class="img-responsive center-block d-block mx-auto" src="../../ressources/banniereMM.JPG" width="100%" height="auto" style="border-radius:5px;"><br>
+    <img class="img-responsive center-block d-block mx-auto" src="../../ressources/banniereombre.JPG" width="100%" height="auto" style="border-radius:5px;"><br>
 </div>
 
 
@@ -45,16 +45,8 @@
     </div>
     
     <div class="pageitem">
-    <p>Magic Maze est un jeu de plateau crée par Sit Down, multijoueur coopératif. Les joueurs incarnent des aventuriers fauchés contraint de voler des armes dans un supermarché sans se faire repérer. Chaque joueur joue un rôle différent et ne peux déplacer les pions que dans une seule direction, il faut donc se coordonner avec les autres joueurs, mais difficulté supplémentaire, il est interdit de se parler. Il faut donc trouver une autre façon de communiquer et il existe plusieurs scénarios rajoutant des règles et des obstacles pour faire varier le niveau de difficulté.
-        </p><br><br>
-    <img src="../../ressources/mm1.jpeg" style="border-radius:5px;margin-right:5%;">
-    <img src="../../ressources/mm2.png" style="border-radius:5px;margin-left:5%;">
     <p>
-        <br>
-        Dans mon école d’ingénieur, en première année (2021/2022 pour moi), tous les élèves forment des groupes de 4 et entament un projet informatique sur l’année. Le but est de les former au travail en équipe, à Git à la programmation et à la conception logicielle: 
-        <a href="https://enseignements.telecom-sudparis.eu/fiche.php?c=PRO3600">voir la fiche programme du module PRO 3600</a>
-        J’ai ainsi former un groupe avec 3 amis et nous avons décidé pour ce projet de réaliser une version numérique du jeux de plateau Magic Maze en multijoueur local.
-
+        En début de deuxième année à Télécom SudParis (fin 2021), j’ai pu faire un choix d’options parmi différents modules proposés, et j’ai choisi un module en lien avec ma passion, l’audiovisuel. Ce module se nomme : De l’imagerie numérique à la réalité virtuelle (et n’est malheureusement plus proposé). Pour valider ce module, nous devions créer un court métrage de A à Z par groupe de 3; écriture du scénario, tournage et montage, avec pour contrainte l’incrustation d’un élément 3D.
     </p>
     </div>
     
@@ -67,77 +59,44 @@
         </div>
 
         <div class="pageitem">
+            <p>C’est
+                l'histoire d’une jeune fille malheureuse, qui trouve
+                un semblant de réconfort sous des pulls trop larges et
+                des capuches, mais qui, grâce à une rencontre
+                opportune, va se donner l’occasion de retrouver son
+                bonheur et de faire la paix avec elle même.
+            </p>
             <p>
-                Ce projet a commencé par une phase de réflexion sur l’adaptation du jeu de plateau en jeux numérique, notamment pour l’interface utilisateur. Comment transposer sur un écran toutes les informations de jeu présente sur le plateau ? Nous avons ainsi établi un cahier des charges, et des schémas pour structurer le projet. Le but étant d’avoir un jeu jouable par quatre personnes, chacune sur son ordinateur, mais dans la même pièce.
+                Ce Court-métrage aborde le thème de l'occasion, de saisir sa chance quand elle se présente pour reprendre sa vie en main via le thème de la transidentité.
             </p><br><br>
-            <img src="../../ressources/mm3.jpg" style="border-radius:5px;margin-right:5%;">
-            <img src="../../ressources/mm4.jpg" style="border-radius:5px;margin-left:5%;">
-            <p>
-                <br>
-                Nous avons décidé de coder ce jeu avec <a href="https://libgdx.com/">libGDX</a>  en Java avec l’IDE IntelliJ, sur conseil de notre tuteur. Nous avons ainsi numérisé les cartes du jeu, modélisé des pions et créer des règles de déplacement sur les cartes (cases inaccessibles etc…). Ensuite, le plus gros défi de ce projet était l’aspect multijoueur en local, car en effet, plusieurs joueurs ne peuvent pas déplacer le même pion en même temps. La solution a été d’implémenter une architecture Client-Serveur où le serveur est hébergé par l’un des joueurs, c’est le « host » de la partie.
-            </p><br>
-            <h2 style="text-align:left;font-size:large;">Résultat final</h2>
-            <p>
-                Au bout de l’année scolaire, nous avons réussi à obtenir une version jouable bien que quelque peu bugée. Il y a un menu d’accueil, un lobby pour attendre que tous les joueurs se connectent, et le jeu principal.
-            </p><br>
-            <a href="https://github.com/Akasunaa/Magic-maze" target="_blank" rel="noopener noreferrer">
-                <button class="github button">
-                  <i class="fab fa-github"></i> Voir sur GitHub
-                </button></a>
-            <br><br><br>
-            <div>
-                <div class="col">
-                    <div>
-                        <img src="../../ressources/mm5.JPG" style="border-radius:5px">
-                        <p>Menu principal</p>
-                        <audio controls>
-                            <source src="../../ressources/audios/Musique_menu.mp3" type="audio/mpeg">
-                            <i>Votre navigateur ne supporte pas ce format audio</i>
-                        </audio>
-                    </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <img src="../../ressources/mm6.JPG" style="border-radius:5px;">
-                        <p>Lobby</p>
-                        <audio controls>
-                            <source src="../../ressources/audios/Musique_lobby.mp3" type="audio/mpeg">
-                            <i>Votre navigateur ne supporte pas ce format audio</i>
-                        </audio>
-                    </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <img src="../../ressources/mm7.JPG" style="border-radius:5px;">
-                        <p>Jeu</p>
-                        <audio controls>
-                            <source src="../../ressources/audios/Musique_jeu_A.mp3" type="audio/mpeg">
-                            <i>Votre navigateur ne supporte pas ce format audio</i>
-                        </audio>
-                    </div>
-                </div>
 
+            <p>
+                Voici le script, et le résultat final:
+            </p><br><br>
+
+            <a href="../../ressources/vfscénario.pdf" download><img src="../../ressources/ombre1.JPG" style="border-radius:5px;border-color:gray;border-style: solid; border-width: 2px;"></a>
+            <br><br>
+            <iframe width="560" height="315" style="border-radius:5px"
+            src = "https://www.youtube.com/embed/lzmzZaB0kss">
+            </iframe> 
+        </div>
+        <div class="pageitem">
+            <br><br>
+            <h2>Mon travail dans ce projet</h2>
             </div>
             
-
-        
+            <div class="pageitem">
+                <ul style="text-align:left;font-size: 150%;">
+                    <li>Chef de projet</li>
+                    <li>Ecriture de scénario</li>
+                    <li>Actrice</li>
+                    <li>Montage</li>
+                    <li>Sound design</li>
+                </ul> 
+            </div>       
     </div>
 
-    <div class="pageitem">
-        <br><br>
-        <h2>Ce que j'ai appris</h2>
-        </div>
-        
-        <div class="pageitem">
-            <ul style="text-align:left;font-size: 150%;">
-                <li>Langage Java</li>
-                <li>Utilisation de LibGDX</li>
-                <li>Utilisation de Git (et GitHub Desktop)</li>
-                <li>Utilisation de IntelliJ</li>
-                <li>Composition des musiques (avec MuseScore 3)</li>
-                <li>Travail de groupe</li>
-            </ul> 
-        </div>
+    
 </div>
 
         
